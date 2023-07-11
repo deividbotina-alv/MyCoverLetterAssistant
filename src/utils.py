@@ -25,3 +25,10 @@ def get_completion(prompt, model="gpt-3.5-turbo"): #"gpt-3.5-turbo"
         temperature=0,
     )
     return response.choices[0].message["content"]
+
+def save_text_file(text:str, name:str, format:str='txt'):
+    if format in ["txt"]:
+        with open(name, 'w') as f:
+            f.write(text)
+    else:
+        print("[save_text_file] ERROR: Format not valid")
