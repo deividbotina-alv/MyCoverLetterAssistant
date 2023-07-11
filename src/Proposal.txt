@@ -1,0 +1,37 @@
+Job Title: Image and Signal Processing Data Scientist
+
+Company: PapaiaLaboratory
+
+Job Description:
+PapaiaLaboratory is seeking a skilled and experienced Image and Signal Processing Data Scientist to join our dynamic team. As an Image and Signal Processing Data Scientist, you will be responsible for developing and implementing advanced algorithms and models for image and signal processing tasks using PyTorch, Docker, and GitHub. The successful candidate will work closely with our research and development team to drive innovation and develop cutting-edge solutions.
+
+Responsibilities:
+- Develop and implement state-of-the-art image and signal processing algorithms and models using PyTorch.
+- Collaborate with the research and development team to design and implement efficient and scalable solutions.
+- Perform data preprocessing, feature extraction, and data augmentation techniques to optimize model performance.
+- Apply machine learning and deep learning techniques to analyze and interpret image and signal data.
+- Utilize OpenCV for computer vision tasks and integrate it with PyTorch models.
+- Optimize and fine-tune models for accuracy, speed, and memory efficiency.
+- Develop and maintain a robust codebase using version control systems such as GitHub.
+- Containerize applications using Docker for easy deployment and reproducibility.
+- Stay up to date with the latest advancements in image and signal processing research and apply them to practical problems.
+
+Requirements:
+- Bachelor's degree in Computer Science, Electrical Engineering, or a related field. Master's or Ph.D. is a plus.
+- Minimum of 1 year of professional experience in machine learning, deep learning, image processing, or signal processing.
+- Strong programming skills in Python or C++ for algorithm implementation.
+- Experience with PyTorch for developing and training deep learning models.
+- Proficiency in using OpenCV for computer vision tasks.
+- Familiarity with version control systems, particularly GitHub, for collaborative development.
+- Knowledge of Docker for containerization and deployment.
+- Strong problem-solving and analytical skills with a keen attention to detail.
+- Excellent communication skills and ability to work effectively in a team environment.
+
+Preferred Qualifications:
+- Experience in working with large-scale datasets and distributed computing frameworks.
+- Familiarity with cloud computing platforms such as AWS, Azure, or Google Cloud.
+- Knowledge of other deep learning frameworks like TensorFlow or Keras.
+
+Join PapaiaLaboratory and be part of a fast-paced and innovative team dedicated to pushing the boundaries of image and signal processing. Apply your expertise in data science to solve real-world challenges and make a significant impact in the field.
+
+To apply, please submit your resume, cover letter, and any relevant project/portfolio links to contact@papaia.com

@@ -1,0 +1,73 @@
+0. Personal Information
+0.1 Name: Deivid BOTINA
+0.2 Birth date: 23 Mai 1995
+0.3 Residence: 55 boulevard Jourdan, 75014, Paris - France
+
+1. Education
+1.1 PhD in Instrumentation and Image processing, Majoring in Deep learning, in the laboratory "Imagerie et Vision Artificielle (ImViA)" Laboratory, University of Burgundy, in Dijon France. (2019-2022. 3 Years)
+1.2 M.Sc. in Automation and Industrial Control, Majoring in machine learning applied to multispectral images, in the university "Instituto tecnológico metropolitano"  located in Medellín, Colombia. (2018-2019. 2 Years)
+1.3 Eng. Electronic Engineering, in the university "Instituto tecnológico metropolitano" in Medellin - Colombia (2012-2017. 5 Years)
+
+2. Experience
+2.0 In 2023 I was Chief AI Scientis at Albatros-Intelligence. I conducted the state of the art on wildfire detection and monitoring. Subsequently, I proposed an scheme with multiple modules for wildfire detection and monitoring using deep learning and computer vision. I collected and processed the data to train and validate the models using Pytorch, OpenCV and Weights and Biases. Finally, I performed the deployment using Docker. I also conducted interviews to candidates to be part of the team.
+2.1 From 2019 to 2022, during three years I developed my PhD thesis. Name of the project "Development of a spatio-temporal neural network for measuring remote photoplethysmography signals". Tasks: I investigated and replicated state-of-the-art Deep Learning models for remote photoplethysmography (rPPG) signal measurement. Using Pytorch, I proposed a new framework that 1) proved to match the heart rate measurement performance found in the literature and 2) increased the measurement speed for real-time use. In addition, I proposed an LSTM-based framework for filtering rPPG signals that outperformed conventional filtering methods.
+2.2 During 2021 and 2022, I was a University teacher at ESIREM and IUT. Dijon-France. (82 hours). Name of the courses: Information Science and Processing, and Image Processing.
+2.3 During the two years of 2018 and 2019 I was in a Research project called "Development and evaluation of a non-invasive portable system based on multispectral imaging for the diagnosis and follow-up of treatment of skin ulcers caused by Leishmaniasis". My work within the project consists of extracting the variations of the main chromophores of skin infected by Leishmaniasis, through a inverse model of optimization in a diffuse reflectance model.
+2.4 During the two years of 2017 and 2019 I worked as a "Laboratory technician". My duties were: administering the teaching laboratory and advising undergraduate students.
+2.5 In 2017 I worked in a Research project called "Implementation of a system of absolute micro-positioning of cell cultures in optical microscopy". My duties within the project consisted of developing a graphical interface (GUI) in C++ with OpenCV libraries, where the spectral analysis of a pseudo-periodic point image was made to define a micro-metric absolute position in a XY plane.
+2.6 In 2016 I worked in a Research project called "Development of an MPPT algorithm with single voltage/current sensor for maximizing power in the load of photovoltaic systems". I worked on this project as a laboratory assistant. My duty was to make a virtual instrument (VI) in the LabView software, for the implementation of a follow-up algorithm of the maximum power point tracking (MPPT) of a solar panel.
+2.7 In 2015 I worked in a Research project called "Implementation of software to quantify the main components of cardiovascular tissue from multi-spectral images". Some of my duties in this project was the realization of a graphic interface (GUI) in Matlab, responsible for making an analysis of multispectral images of cardiovascular tissue to quantify its main components.
+
+3. Scientific Publications.
+3.0 Two first-authored publications at the peer-reviewed conference CVPR
+3.1 In 2014 I published the paper called "Analysis of mutli-spectral images from cardiovascular tissue by means of blind source separation methods".
+3.2 In 2015 I published the paper called "Blind source separation of ex-vivo aorta tissue multispectral images". 
+3.3 In 2017 I published the paper called "Visual in-plane positioning of a Labeled target with subpixel Resolution: basics and application"
+3.4 In 2018 I published the paper called "Automatic classification of vowels in Colombian sign language"
+3.5 In 2019 I published the paper called "Estimation of biological parameters of cutaneous ulcers caused by leishmaniasis in an animal model using diffuse reflectance spectroscopy"
+3.6 In 2020 I published the paper called "Long short-term memory deep-filter in remote photoplethysmography" 
+3.7 In  2020 I published the paper called "Analysis of cutaneous leishmaniasis hyperspectral images by means of an inverse modeling procedure"
+3.8 In 2021 I published the paper called "Data-Augmentation for Deep Learning Based Remote Photoplethysmography Methods"
+3.9 In 2021 I published the paper called "Diffuse Reflectance Parameters of Treated Leishmaniasis Cutaneous Ulcers and Association with Histopathologies in an Animal Model: A Proof of Concept"
+3.10 In 2022 I Published the paper called "RTrPPG: An ultra light 3DCNN for real-time remote photoplethysmography"
+3.11 In 2022 I published the paper called "Performance analysis of remote photoplethysmography deep filtering using long short-term memory neural network"
+3.12 In 2023 I published the paper called "Temporal Evaluation of the Surface Area of Treated Skin Ulcers Caused by Cutaneous Leishmaniasis and Relation with Optical Parameters in an Animal Model: A Proof of Concept"
+All publications are available in my google scholar account in the following link:https://scholar.google.com/citations?user=yluMQiAAAAAJ&hl=en
+
+4. Awards
+4.1 In 2018 I was the Winner of research awards in the City of Medellín, an award given by the Medellin's town hall.
+4.2 In 2017 I was condecorated with the "Recognition for carrying out research activities" by the Instituto tecnológico metropolitano.
+4.3 In 2016 I won the "First place in best class project in electronic engineering category". In the event "Week of engineering", award given by the Instituto tecnológico metropolitano.
+4.4 In 2015 I was condecorated with the "Recognition for merit and academic consecration reflected in the results obtained in the "SABER PRO 2014-2 tests"" given by the Ministry of Education of Colombia.
+
+5. Technical skills
+Python, Pytorch, MATLAB, Pytorch, Tensorflow, Keras, Machine learning, Deep learning, Github, Matplotlib, Seaborn, Pandas, Scikit-learn, Numpy, Scipy, Agile(Scrum), MLOps, Docker.
+
+6. Certifications
+6.1 In 2023 I had a certification in the Coursera platform called "Data Analysis with Python"
+6.2 In 2023 I had a certification in the Coursera platform called "AWS Cloud Technical Essentials"
+6.3 In 2023 I had a certification in the Coursera platform called "Natural Language Processing with Classification and Vector Spaces"
+6.4 In 2023 I had a certification in the Coursera platform called "Specialized program: Deep learning"
+6.5 In 2023 I had a certification in the Coursera platform called "Agile Project Management"
+6.6 In 2023 I had a certification in the Coursera platform called "Deep Learning Applications for Computer Vision"
+6.7 In 2023 I had a certification in the Coursera platform called "Introduction to Machine Learning in Production"
+6.8 In 2023 I had a certification in the Coursera platform called "Introduction to Git and Github"
+6.9 In 2023 I had a certification in the Coursera platform called "SQL for Data Science"
+
+7. Soft Skills
+Creativiy, Teamwork, Communication, Adaptability, Problem-Solving
+
+8. Languages
+8.1 Spanish: Native
+8.2 English: Fluent
+8.3 French: Begginer
+
+9. Interests
+Reading, Game development, Video games, Rock climbing, Hiking, Teaching, History of philosophy
+
+10. Others
+- I have learnt how to learn and master difficult tasks
+- Give me a problem and I will give you a solution
+- I am autonomous
+- I can teach difficult things easily, I am passionate about teaching
+- I like new challenges that makes me learn new things
