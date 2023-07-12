@@ -3,6 +3,7 @@ import sys
 import openai
 from dotenv import load_dotenv, find_dotenv
 import enum
+from docx import Document
 
 _ = load_dotenv(find_dotenv())  # read local .env file
 
@@ -22,6 +23,10 @@ class Languages(enum.Enum):
     PORTUGUESE = enum.auto()
     ITALIAN = enum.auto()
 
+class Text_format(enum.Enum):
+    txt = enum.auto()
+    docx = enum.auto()
+    # pdf = enum.auto() # TO-DO
 
 def read_file(file_path: str):
     """
@@ -86,12 +91,8 @@ def save_text_file(text: str, name: str, format: str = "txt"):
     Args:
         text (str): The text to save.
         name (str): The file name.
-        format (str): The file format.
+        format (str): The file format ('txt', 'docx', 'pdf').
     """
-    if format != "txt":
-        print("[save_text_file] ERROR: Format not valid")
-        return
-
     base_name, ext = os.path.splitext(name)
     counter = 1
     new_name = name
@@ -100,7 +101,17 @@ def save_text_file(text: str, name: str, format: str = "txt"):
         new_name = f"{base_name}({counter}){ext}"
         counter += 1
 
-    with open(new_name, "w") as file:
-        file.write(text)
+    if format == "txt":
+        with open(new_name, "w") as file:
+            file.write(text)
+    elif format == "docx":
+        document = Document()
+        document.add_paragraph(text)
+        document.save(new_name)
+    elif format == "pdf": # TODO
+        print("PDF format is not supported yet")
+    else:
+        print("[save_text_file] ERROR: Format not valid")
+        return
 
     print(f"[SUCCESS!] File saved as {new_name}")

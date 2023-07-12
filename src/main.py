@@ -1,6 +1,6 @@
 import os
 from os.path import join
-from utils import get_completion_from_messages, read_file, save_text_file, Languages
+from utils import get_completion_from_messages, read_file, save_text_file, Languages, Text_format
 import argparse
 
 crt_file_path = os.path.dirname(os.path.abspath(__file__))
@@ -47,14 +47,17 @@ def get_cover_letter(curriculum: str, proposal: str, language: str, model: str, 
     return get_completion_from_messages(messages, model, temperature, max_tokens)
 
 
-def create_cover_letter(cv_path:str, proposal_path:str, out_format: str, language: str, model: str, temperature: float, max_tokens: int):
+def create_cover_letter(cv_path:str, proposal_path:str, out_path:str,
+                        out_format: str, language: str, model: str,
+                        temperature: float, max_tokens: int):
     """
     Create a cover letter based on the provided parameters.
 
     Args:
         cv_path (str): Curriculum vitae file path
         proposal_path (str): Work proposal file path
-        out_format (str): Output file format.
+        out_path (str): Path where the cover letter will be saved
+        out_format (str): Output file format. TODO: pdf
         language (str): Output language.
         model (str): Language model to use.
         temperature (float): Temperature parameter for text generation.
@@ -70,7 +73,7 @@ def create_cover_letter(cv_path:str, proposal_path:str, out_format: str, languag
     # Save cover letter
     if not os.path.exists(join(crt_file_path, "output")):
         os.makedirs(join(crt_file_path, "output"))
-    file_name = join(crt_file_path, "output", f"coverletter.{out_format}")
+    file_name = join(out_path, f"coverletter.{out_format}")
     save_text_file(text=response, name=file_name, format=out_format)
 
 if __name__ == "__main__":
@@ -93,12 +96,19 @@ if __name__ == "__main__":
         type=str,
         required=False,
         help="Path to the file with the work proposal"
-    )    
+    )  
+    parser.add_argument(
+        "--out_path",
+        "-op",
+        type=str,
+        required=False,
+        help="Path where the coverletter will be saved"
+    )        
     parser.add_argument(
         "--out_format",
         "-of",
         type=str,
-        choices=["txt"],
+        choices=[e.name for e in Text_format],
         default="txt",
         required=False,
         help="Output file format",
@@ -108,7 +118,7 @@ if __name__ == "__main__":
         "-ol",
         type=str,
         choices=[e.name for e in Languages],
-        default="english",
+        default="ENGLISH",
         required=False,
         help="Output language",
     )
@@ -146,6 +156,7 @@ if __name__ == "__main__":
     args.max_tokens = 0 if args.max_tokens < 0 else args.max_tokens
     args.path_cv_file = join(crt_file_path, "CV.txt") if args.path_cv_file is None else args.path_cv_file
     args.path_proposal_file = join(crt_file_path, "Proposal.txt") if args.path_proposal_file is None else args.path_proposal_file
+    args.out_path = crt_file_path if args.out_path is None else args.out_path
 
     for arg in vars(args):
         print(f"{arg}: {getattr(args, arg)}")
@@ -155,6 +166,7 @@ if __name__ == "__main__":
     create_cover_letter(
         cv_path = args.path_cv_file,
         proposal_path = args.path_proposal_file,
+        out_path = args.out_path,
         out_format=args.out_format,
         language=args.out_language,
         model=args.model,
