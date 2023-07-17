@@ -88,14 +88,14 @@ if __name__ == "__main__":
         "-pcf",
         type=str,
         required=False,
-        help="Path to the file with the CV"
+        help="Path to the file containing the CV"
     )
     parser.add_argument(
         "--path_proposal_file",
         "-ppf",
         type=str,
         required=False,
-        help="Path to the file with the work proposal"
+        help="Path to the file containing the work proposal"
     )  
     parser.add_argument(
         "--out_path",
