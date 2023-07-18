@@ -143,7 +143,7 @@ In process...
 
 </details>
 
-# Usage
+# How to Use
 
 Before using the MyCoverLetterAssistant, you need to set up the necessary API key from OpenAI. Follow the steps below to obtain your `OPENAI_API_KEY`:
 
