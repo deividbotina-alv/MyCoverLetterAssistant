@@ -35,6 +35,8 @@ The MyCoverLetterAssistant project has been tested on a Lenovo ThinkPad P16s Gen
 <details>
 <summary> Setting up a Virtual Environment (click to expand)</summary>
 
+***Make sure you have downloaded the repository and you are in it.***
+
 To utilize the MyCoverLetterAssistant, it is highly recommended to create a virtual environment. You have two options to set up the virtual environment: either from scratch or by using the provided requirements.txt file. Follow the instructions below to proceed with your preferred method:
 
 
@@ -53,40 +55,40 @@ $ sudo apt-get install python3-pip
 $ sudo apt-get install virtualenv
 ```
 
-- Create a virtual environment with a desired name, for example "gpt," in the preferred directory.
+- Create a virtual environment with a desired name, for example "venv".
 
 ```bash
-$ virtualenv /media/user/envs/gpt
+$ virtualenv venv
 ```
 
 - Activate the virtual environment you just created.
 
 ```bash
-$ source /media/user/envs/gpt/bin/activate
+$ source venv/bin/activate
 ```
 
 - Check your Python version
 
 ```bash
-$gpt$ python --version
+$venv$ python --version
 ```
 
 - Install the openai library
 
 ```bash
-$gpt$ pip install openai==0.27.8
+$venv$ pip install openai==0.27.8
 ```
 
 - Install the dotenv library
 
 ```bash
-$gpt$ pip install python-dotenv
+$venv$ pip install python-dotenv
 ```
 
 - Install the docx library
 
 ```bash
-$gpt$ pip install --upgrade python-docx
+$venv$ pip install --upgrade python-docx
 ```
 </details>
 
@@ -105,28 +107,28 @@ $ sudo apt-get install python3-pip
 $ sudo apt-get install virtualenv
 ```
 
-- Create a virtual environment with a desired name, for example "gpt," in the preferred directory.
+- Create a virtual environment with a desired name, for example "venv".
 
 ```bash
-$ virtualenv /media/user/envs/gpt
+$ virtualenv venv
 ```
 
 - Activate the virtual environment you just created.
 
 ```bash
-$ source /media/user/envs/gpt/bin/activate
+$ source venv/bin/activate
 ```
 
 - Check your Python version
 
 ```bash
-$gpt$ python --version
+$venv$ python --version
 ```
 
 - Use pip and specify your requirements.txt file path
 
 ```bash
-$gpt$ pip install -r requirements.txt
+$venv$ pip install -r requirements.txt
 ```
 
 </details>
