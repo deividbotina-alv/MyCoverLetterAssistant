@@ -1,6 +1,7 @@
 /.env
 .vscode/
 src/output
+src/coverletter.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
